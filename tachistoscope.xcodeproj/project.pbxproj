@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F235AE51D019ACB0092C6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F235AE41D019ACB0092C6C6 /* AppDelegate.swift */; };
+		3F235AE71D019ACB0092C6C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F235AE61D019ACB0092C6C6 /* ViewController.swift */; };
+		3F235AEA1D019ACB0092C6C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F235AE81D019ACB0092C6C6 /* Main.storyboard */; };
+		3F235AEC1D019ACB0092C6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F235AEB1D019ACB0092C6C6 /* Assets.xcassets */; };
+		3F235AEF1D019ACB0092C6C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F235AED1D019ACB0092C6C6 /* LaunchScreen.storyboard */; };
+		3F235AFA1D019ACB0092C6C6 /* tachistoscopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F235AF91D019ACB0092C6C6 /* tachistoscopeTests.swift */; };
+		3F235B051D019ACB0092C6C6 /* tachistoscopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F235B041D019ACB0092C6C6 /* tachistoscopeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F235AF61D019ACB0092C6C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F235AD91D019ACB0092C6C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F235AE01D019ACB0092C6C6;
+			remoteInfo = tachistoscope;
+		};
+		3F235B011D019ACB0092C6C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F235AD91D019ACB0092C6C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F235AE01D019ACB0092C6C6;
+			remoteInfo = tachistoscope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F235AE11D019ACB0092C6C6 /* tachistoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tachistoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F235AE41D019ACB0092C6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F235AE61D019ACB0092C6C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F235AE91D019ACB0092C6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F235AEB1D019ACB0092C6C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F235AEE1D019ACB0092C6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F235AF01D019ACB0092C6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F235AF51D019ACB0092C6C6 /* tachistoscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tachistoscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F235AF91D019ACB0092C6C6 /* tachistoscopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tachistoscopeTests.swift; sourceTree = "<group>"; };
+		3F235AFB1D019ACB0092C6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F235B001D019ACB0092C6C6 /* tachistoscopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tachistoscopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F235B041D019ACB0092C6C6 /* tachistoscopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tachistoscopeUITests.swift; sourceTree = "<group>"; };
+		3F235B061D019ACB0092C6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F235ADE1D019ACB0092C6C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F235AF21D019ACB0092C6C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F235AFD1D019ACB0092C6C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F235AD81D019ACB0092C6C6 = {
+			isa = PBXGroup;
+			children = (
+				3F235AE31D019ACB0092C6C6 /* tachistoscope */,
+				3F235AF81D019ACB0092C6C6 /* tachistoscopeTests */,
+				3F235B031D019ACB0092C6C6 /* tachistoscopeUITests */,
+				3F235AE21D019ACB0092C6C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F235AE21D019ACB0092C6C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F235AE11D019ACB0092C6C6 /* tachistoscope.app */,
+				3F235AF51D019ACB0092C6C6 /* tachistoscopeTests.xctest */,
+				3F235B001D019ACB0092C6C6 /* tachistoscopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F235AE31D019ACB0092C6C6 /* tachistoscope */ = {
+			isa = PBXGroup;
+			children = (
+				3F235AE41D019ACB0092C6C6 /* AppDelegate.swift */,
+				3F235AE61D019ACB0092C6C6 /* ViewController.swift */,
+				3F235AE81D019ACB0092C6C6 /* Main.storyboard */,
+				3F235AEB1D019ACB0092C6C6 /* Assets.xcassets */,
+				3F235AED1D019ACB0092C6C6 /* LaunchScreen.storyboard */,
+				3F235AF01D019ACB0092C6C6 /* Info.plist */,
+			);
+			path = tachistoscope;
+			sourceTree = "<group>";
+		};
+		3F235AF81D019ACB0092C6C6 /* tachistoscopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F235AF91D019ACB0092C6C6 /* tachistoscopeTests.swift */,
+				3F235AFB1D019ACB0092C6C6 /* Info.plist */,
+			);
+			path = tachistoscopeTests;
+			sourceTree = "<group>";
+		};
+		3F235B031D019ACB0092C6C6 /* tachistoscopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F235B041D019ACB0092C6C6 /* tachistoscopeUITests.swift */,
+				3F235B061D019ACB0092C6C6 /* Info.plist */,
+			);
+			path = tachistoscopeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F235AE01D019ACB0092C6C6 /* tachistoscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F235B091D019ACB0092C6C6 /* Build configuration list for PBXNativeTarget "tachistoscope" */;
+			buildPhases = (
+				3F235ADD1D019ACB0092C6C6 /* Sources */,
+				3F235ADE1D019ACB0092C6C6 /* Frameworks */,
+				3F235ADF1D019ACB0092C6C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tachistoscope;
+			productName = tachistoscope;
+			productReference = 3F235AE11D019ACB0092C6C6 /* tachistoscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F235AF41D019ACB0092C6C6 /* tachistoscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F235B0C1D019ACB0092C6C6 /* Build configuration list for PBXNativeTarget "tachistoscopeTests" */;
+			buildPhases = (
+				3F235AF11D019ACB0092C6C6 /* Sources */,
+				3F235AF21D019ACB0092C6C6 /* Frameworks */,
+				3F235AF31D019ACB0092C6C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F235AF71D019ACB0092C6C6 /* PBXTargetDependency */,
+			);
+			name = tachistoscopeTests;
+			productName = tachistoscopeTests;
+			productReference = 3F235AF51D019ACB0092C6C6 /* tachistoscopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F235AFF1D019ACB0092C6C6 /* tachistoscopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F235B0F1D019ACB0092C6C6 /* Build configuration list for PBXNativeTarget "tachistoscopeUITests" */;
+			buildPhases = (
+				3F235AFC1D019ACB0092C6C6 /* Sources */,
+				3F235AFD1D019ACB0092C6C6 /* Frameworks */,
+				3F235AFE1D019ACB0092C6C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F235B021D019ACB0092C6C6 /* PBXTargetDependency */,
+			);
+			name = tachistoscopeUITests;
+			productName = tachistoscopeUITests;
+			productReference = 3F235B001D019ACB0092C6C6 /* tachistoscopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F235AD91D019ACB0092C6C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "小泉心之介";
+				TargetAttributes = {
+					3F235AE01D019ACB0092C6C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U9WQ8Q2K5M;
+					};
+					3F235AF41D019ACB0092C6C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U9WQ8Q2K5M;
+						TestTargetID = 3F235AE01D019ACB0092C6C6;
+					};
+					3F235AFF1D019ACB0092C6C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U9WQ8Q2K5M;
+						TestTargetID = 3F235AE01D019ACB0092C6C6;
+					};
+				};
+			};
+			buildConfigurationList = 3F235ADC1D019ACB0092C6C6 /* Build configuration list for PBXProject "tachistoscope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F235AD81D019ACB0092C6C6;
+			productRefGroup = 3F235AE21D019ACB0092C6C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F235AE01D019ACB0092C6C6 /* tachistoscope */,
+				3F235AF41D019ACB0092C6C6 /* tachistoscopeTests */,
+				3F235AFF1D019ACB0092C6C6 /* tachistoscopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F235ADF1D019ACB0092C6C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F235AEF1D019ACB0092C6C6 /* LaunchScreen.storyboard in Resources */,
+				3F235AEC1D019ACB0092C6C6 /* Assets.xcassets in Resources */,
+				3F235AEA1D019ACB0092C6C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F235AF31D019ACB0092C6C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F235AFE1D019ACB0092C6C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F235ADD1D019ACB0092C6C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F235AE71D019ACB0092C6C6 /* ViewController.swift in Sources */,
+				3F235AE51D019ACB0092C6C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F235AF11D019ACB0092C6C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F235AFA1D019ACB0092C6C6 /* tachistoscopeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F235AFC1D019ACB0092C6C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F235B051D019ACB0092C6C6 /* tachistoscopeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F235AF71D019ACB0092C6C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F235AE01D019ACB0092C6C6 /* tachistoscope */;
+			targetProxy = 3F235AF61D019ACB0092C6C6 /* PBXContainerItemProxy */;
+		};
+		3F235B021D019ACB0092C6C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F235AE01D019ACB0092C6C6 /* tachistoscope */;
+			targetProxy = 3F235B011D019ACB0092C6C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F235AE81D019ACB0092C6C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F235AE91D019ACB0092C6C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F235AED1D019ACB0092C6C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F235AEE1D019ACB0092C6C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F235B071D019ACB0092C6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F235B081D019ACB0092C6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F235B0A1D019ACB0092C6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tachistoscope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shinnisuke.com.tachistoscope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F235B0B1D019ACB0092C6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tachistoscope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shinnisuke.com.tachistoscope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F235B0D1D019ACB0092C6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tachistoscopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shinnisuke.com.tachistoscopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tachistoscope.app/tachistoscope";
+			};
+			name = Debug;
+		};
+		3F235B0E1D019ACB0092C6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tachistoscopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shinnisuke.com.tachistoscopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tachistoscope.app/tachistoscope";
+			};
+			name = Release;
+		};
+		3F235B101D019ACB0092C6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tachistoscopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shinnisuke.com.tachistoscopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tachistoscope;
+			};
+			name = Debug;
+		};
+		3F235B111D019ACB0092C6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tachistoscopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shinnisuke.com.tachistoscopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tachistoscope;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F235ADC1D019ACB0092C6C6 /* Build configuration list for PBXProject "tachistoscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F235B071D019ACB0092C6C6 /* Debug */,
+				3F235B081D019ACB0092C6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F235B091D019ACB0092C6C6 /* Build configuration list for PBXNativeTarget "tachistoscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F235B0A1D019ACB0092C6C6 /* Debug */,
+				3F235B0B1D019ACB0092C6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F235B0C1D019ACB0092C6C6 /* Build configuration list for PBXNativeTarget "tachistoscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F235B0D1D019ACB0092C6C6 /* Debug */,
+				3F235B0E1D019ACB0092C6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F235B0F1D019ACB0092C6C6 /* Build configuration list for PBXNativeTarget "tachistoscopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F235B101D019ACB0092C6C6 /* Debug */,
+				3F235B111D019ACB0092C6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F235AD91D019ACB0092C6C6 /* Project object */;
+}
