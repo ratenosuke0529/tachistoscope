@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // test
+    
     @IBOutlet var  teamMemberLabel: UILabel!
     
     let teamMemberArray: [String] = ["へーわ"," ","そーり"," ","のすけ"," ","タカキ"," ","シュン"," ","はしお"," "]
