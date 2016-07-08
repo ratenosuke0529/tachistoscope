@@ -18,12 +18,22 @@ class ViewController: UIViewController {
     
     var index: Int = 0
     
+    var timer : NSTimer!
+    
+    var myLabel : UILabel!
+
     
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //teamMemberLabel.text = teamMemberArray[0]
+        print(teamMemberArray[0])
+        //teamMemberLabel.text = teamMemberArray[0]
+        
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,19 +42,29 @@ class ViewController: UIViewController {
     }
 
     @IBAction func change(){
-       NSTimer.scheduledTimerWithTimeInterval(1,
-                    target: self,
-                    selector: #selector(self.countUp),
-                    userInfo: nil,
-                    repeats: true )
+        
+        //timerが動いてるなら.
+        if timer.valid  {
+            
+            //timerを破棄する.
+            timer.invalidate()
+            
+        } else {
+            
+            //timerを生成する.
+            timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(self.countUp), userInfo: nil, repeats: true)
+            
+
+        }
+        
                     
         }
     
     func countUp () {
         //それぞれのラベルに配列の要素を追加する
         
-        teamMemberLabel.text = teamMemberArray[index]
-        
+        //teamMemberLabel.text = teamMemberArray[0]
+        print(teamMemberArray[index])
         
         
         //indexの値を+1する
@@ -67,6 +87,8 @@ class ViewController: UIViewController {
     
     }
 
+    
+    
 }
 
 
